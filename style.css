@@ -57,12 +57,11 @@ main {
 
 main > article {
   margin-top: 30px;
-  background-color: blue;
-  overflow: auto;
+  overflow: hidden;
 } 
 
-main > article > section {
-  float: left;
+main > article > section{
+  float: right;
   width: 50%;
 }
 
@@ -74,7 +73,7 @@ main > article > section {
 
 main > article > section > p {
   height: 300px;
-  overflow: auto;
+  overflow: auto;;
 
   
 }
@@ -88,5 +87,9 @@ footer {
 
 button:hover {
   background-color: red;
-  transition: 50ms;
+  transition: 350ms;
+}
+button{
+background-color: black;
+
 }
